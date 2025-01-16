@@ -1,0 +1,96 @@
+
+  
+ 
+  
+  .hero-content h1 {
+    width: 596px;
+    height: 64px;
+    top: 220px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    
+  }
+  
+  .hero-content p {
+    width: 557px;
+    height: 72px;
+    top: 307px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+  }
+  
+  .write-to-us-btn {
+    background-color: white;
+    color: #00BCD4;
+    padding: 15px 30px;
+    border-color: #00BCD4;
+    border-radius: solid 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .write-to-us-btn .arrow {
+    margin-left: 5px;
+  }
+  
+  .hero-illustration {
+    position: absolute;
+    top: 300;
+    right: 0;
+    width: 30%; 
+    z-index: 1;
+  }
+  
+  .hero-illustration img {
+    width: 80%; 
+    height: 110; 
+    padding-bottom: 150px;
+  }
+  
+  .continue-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+
+  }
+  
+  .text-block {
+    text-align: center;
+  }
+  
+  .text-block h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .text-block p {
+    color: #666;
+  }
+  
+  .underline {
+    width: 80px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 10px auto 0;
+  }
