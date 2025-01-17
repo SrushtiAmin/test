@@ -1,0 +1,139 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .about-content {
+    display: flex;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    padding-right: 400px;
+    
+  }
+  .rectangle2{
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+    width: 300px; 
+    height: auto;
+    z-index: 0; 
+    
+  }
+  .rectangle {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+    width: 500px; 
+    height: auto;
+    z-index: 0; 
+  }
+  
+  .about-box {
+    background-color: #4db6e8;
+    color: white;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    transform: rotate(-50deg);
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+  }
+  .box-text{
+    transform: rotate(50deg);
+  }
+  
+  .about-images {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .about-images img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .img1 {
+    position: absolute;
+    top: -5px; 
+    right: 250px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: rotate(-50deg);
+    margin-right: 130px;
+  }
+  .img2 {
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    transform: rotate(-50deg); 
+    margin-right: 120px;
+  }
+  .about-right {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .about-right h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .about-right p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .about-stats {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h4 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .stat-item p {
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+  }

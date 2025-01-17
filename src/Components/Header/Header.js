@@ -18,23 +18,16 @@ const Header = () => {
             <li><a href ="#services">Services</a></li> 
             <li><a href ="#values">Our Values</a></li>
             <li><a href ="#studies">Case Studies</a></li>
-            
             <li><a href ="#blog">Blogs</a></li>
             <li><a href ="#pages">Inner Pages</a></li>
-          </ul>
-          
-        </nav>
-       
+          </ul>    
+        </nav>       
         <div className="header-actions">
-          
           <button className="login-btn">Login</button>
           <button className="register-btn">Register</button>
           <span className="line">|</span>
           <span className="settings">< IoMdSettings /></span>
-          
         </div>
-       
-      
     </div>
     </header>
   )
