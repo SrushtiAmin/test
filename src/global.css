@@ -1,7 +1,7 @@
-/* Eliminate horizontal scrolling */
 body {
     overflow-x: hidden;
-  }html {
+  }
+html {
     font-size: 16px;
     scroll-behavior: smooth;
   }
