@@ -1,0 +1,18 @@
+.Logo-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px; 
+    padding: 20px;
+    background-color: transparent; 
+  }
+  .icon {
+    width: 50px; 
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .icon:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
