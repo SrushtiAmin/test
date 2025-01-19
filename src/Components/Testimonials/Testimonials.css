@@ -1,6 +1,6 @@
 /* Testimonials.css */
 .testimonials-section {
-    padding: 150px;
+    padding: 150px 0;
     background-color: #f4faff;
     display: flex;
     flex-direction: column;
