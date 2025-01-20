@@ -19,10 +19,10 @@
     height: 100%;
   }
 .diamond{
-    position: absolute; /* Absolute positioning to place inside the Rectangle */
+    position: absolute; 
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-132deg); /* Center the diamond and rotate */
+    transform: translate(-50%, -50%) rotate(-132deg);
     background-color: #4db6e8;
     color: white;
     padding: 10px 10px;
@@ -53,18 +53,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -1; /* Places the images below the text */
+    z-index: -1; 
   }
-  
-  /* You can adjust the size and position of each image as needed */
   .solid {
     width: 400px;
   }
-  
   .ring {
     width: 450px;
   }
-  
   .bigring {
     width: 520px;
   }
@@ -81,7 +77,6 @@
     margin-top: 20px;
     margin-left: -200px;
     z-index: 11;
-
   }
   .Group3{
     position: absolute;
@@ -90,7 +85,6 @@
     margin-top: -100px;
     margin-left: -50px;
     z-index: 11;
-
   }
   .Group4{
     position: absolute;
@@ -99,7 +93,6 @@
     margin-top: 250px;
     margin-left: 35px;
     z-index: 11;
-
   }
   .Group5{
     position: absolute;
@@ -108,7 +101,6 @@
     margin-top: -10px;
     margin-left: 50px;
     z-index: 11;
-
   }
   .Group6{
     position: absolute;
@@ -117,7 +109,6 @@
     margin-top: 250px;
     margin-left: -180px;
     z-index: 11;
-
   }
   .Group7{
     position: absolute;
@@ -126,7 +117,6 @@
     margin-top: 100px;
     margin-left: 150px;
     z-index: 11;
-
   }
   .Group8{
     position: absolute;
@@ -135,62 +125,52 @@
     margin-top: 300px;
     margin-left: -250px;
     z-index: 11;
-
   }
-
-
 .values-text {
     text-align: center;
     margin: 0 auto;
-    max-width: 800px; /* Controls the width of the whole text block */
+    max-width: 800px; 
   }
-  
   .values-text h3 {
     font-weight: bold;
     font-size: 28px;
     font-family: Roboto, sans-serif;
     margin-bottom: 20px;
-    max-width: 600px; /* Adjust the width of the heading */
-    margin: 0 auto; /* Center the heading */
+    max-width: 600px; 
+    margin: 0 auto;
   }
-  
   .values-text p {
     font-size: 16px;
     line-height: 1.6;
-    margin: 0 auto; /* Center the paragraph */
-    max-width: 600px; /* Matches the heading's width */
+    margin: 0 auto; 
+    max-width: 600px; 
     text-align: center;
   }
-  
   .values-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    gap: 40px 60px; /* Space between items */
-    justify-content: center; /* Center the grid */
-    align-items: start; /* Align items at the top */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px 60px; 
+    justify-content: center; 
+    align-items: start;
   }
-  
   .value-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  
   .value-item .icon {
-    width: 30px; /* Icon size */
+    width: 30px; 
     height: 30px;
     margin-left: -90px;
     margin-top: 10px;
   }
-  
   .value-item h4 {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 20px; /* Space below the heading */
+    margin-bottom: 20px;
     color: #333333;
   }
-  
   .value-item p {
     font-size: 14px;
     line-height: 1.5;
