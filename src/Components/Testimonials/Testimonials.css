@@ -1,13 +1,11 @@
-/* Testimonials.css */
 .testimonials-section {
     padding: 150px 0;
     background-color: #f4faff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden; 
   }
-  
   .section-title {
     font-size: 36px;
     color: #234bc4;
@@ -16,18 +14,16 @@
     text-align: center;
     margin-left: -800px;
   }
-  
   .testimonials-container {
     display: flex;
-    gap: 20px; /* Space between the boxes */
-    justify-content: flex-start; /* Align boxes to the left */
+    gap: 20px; 
+    justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap; /* Wrap boxes to the next row if needed */
-    width: 100%; /* Make sure the layout spans the full width */
-    max-width: 1200px; /* Optional: Limit maximum width of the container */
-    margin: 0 auto; /* Center-align the container */
+    flex-wrap: wrap; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
   }
-  
   .testimonial-card {
     background: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -41,50 +37,42 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  
   .testimonial-card:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly increase shadow on hover */
     transform: translateY(-5px); /* Add a slight hover effect */
     transition: all 0.3s ease;
   }
-  
   .testimonial-text {
     font-size: 14px;
     color: #555;
     margin-bottom: 25px;
     line-height: 1.6;
   }
-  
   .rating {
     font-size: 18px;
     color: #805df4;
     margin-bottom: 30px;
   }
-  
   .testimonial-author {
     display: flex;
     align-items: center;
     gap: 10px;
   }
-  
   .testimonial-author img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
-  
   .testimonial-author h4 {
     font-size: 16px;
     margin: 0;
     font-weight: bold;
   }
-  
   .testimonial-author p {
     font-size: 12px;
     margin: 0;
     color: #777;
   }
-  
   .pagination-dots {
     margin-top: 30px;
     display: flex;
@@ -92,7 +80,6 @@
     gap: 10px;
     margin-left: 50px;
   }
-  
   .pagination-dots .dot {
     width: 10px;
     height: 10px;
@@ -100,20 +87,15 @@
     border-radius: 50%;
     margin-top: 60px;
   }
-  
   .pagination-dots .dot.active {
     background: #234bc4;
   }
-  
-  /* Responsive Design */
   @media (max-width: 768px) {
     .testimonials-container {
-      justify-content: center; /* Center-align for smaller screens */
+      justify-content: center; 
     }
-  
     .testimonial-card {
-      width: 90%; /* Make cards full-width with some padding */
-      max-width: 300px; /* Optional: Limit max width for better visuals */
+      width: 90%; 
     }
   }
   

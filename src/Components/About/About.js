@@ -28,16 +28,16 @@ function About() {
             tellus tellus. Pellentesque ullamcorper ultrices. Aenean facilisis
             vitae purus facilisis semper.
           </p>
-          <div className="about-stats">
-            <div className="stat-item">
+          <div className="about-states">
+            <div className="state-item">
               <h4>+200</h4>
               <p>EMPLOYEE</p>
             </div>
-            <div className="stat-item">
+            <div className="state-item">
               <h4>+500</h4>
               <p>PROJECT</p>
             </div>
-            <div className="stat-item">
+            <div className="state-item">
               <h4>+300</h4>
               <p>CLIENTS</p>
             </div>
