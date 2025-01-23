@@ -4,11 +4,10 @@ import logo from '../../Assests/Images/headerImages/logo.png';
 import { IoMdSettings } from "react-icons/io";
 
 
-
 const Header = () => {
   return (
     <header className='header'>
-    <div className='container'>
+     <div className='container'>
         <div className='logo'>
             <img src ={logo} alt='Agency Logo' className='logo-img'/>
             <span className='logo-text'>Agency</span>
@@ -23,8 +22,10 @@ const Header = () => {
           </ul>    
         </nav>       
         <div className="header-actions">
-          <button className="login-btn">Login</button>
-          <button className="register-btn">Register</button>
+          <div className='button'>
+            <a href="/login" className="login-btn">Login</a>
+            <a href="/register" className="register-btn">Register</a>
+          </div>
           <span className="line">|</span>
           <span className="settings">< IoMdSettings /></span>
         </div>

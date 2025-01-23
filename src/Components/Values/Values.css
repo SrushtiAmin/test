@@ -1,180 +1,151 @@
-.our-values-section{
-    display: flex;
-    padding: 80px 0;
-    margin-right: -300px;
-    margin-left: 300px;
+.our-values-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+  padding: 60px 20px; /* Adjust padding for consistent spacing */
+  margin: 0 auto; /* Center the section */
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Add space between elements */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+  max-width: 1920px;
 }
-.values-text h3{
-    font-weight: bold;
-    font-size: 28px;
-    font-family: Roboto;
-}
-.values-text p{
-    color: #000000DE ;
-}
-.diamond-container {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-  }
-.diamond{
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-132deg);
-    background-color: #4db6e8;
-    color: white;
-    padding: 10px 10px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50px;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-.diamond-text{
-    transform: rotate(132deg);
-}
-.Rectangle {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    z-index: 0;
-  }
-  
-  .solid, .ring, .bigring {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1; 
-  }
-  .solid {
-    width: 400px;
-  }
-  .ring {
-    width: 450px;
-  }
-  .bigring {
-    width: 520px;
-  }
-  .floating-icons {
-    position: relative;
-    width: 100%;
-    height: 400px; /* Adjust height as needed */
-    z-index: 10;
-  }
-  .Group2{
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    margin-top: 20px;
-    margin-left: -200px;
-    z-index: 11;
-  }
-  .Group3{
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    margin-top: -100px;
-    margin-left: -50px;
-    z-index: 11;
-  }
-  .Group4{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    margin-top: 250px;
-    margin-left: 35px;
-    z-index: 11;
-  }
-  .Group5{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    margin-top: -10px;
-    margin-left: 50px;
-    z-index: 11;
-  }
-  .Group6{
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    margin-top: 250px;
-    margin-left: -180px;
-    z-index: 11;
-  }
-  .Group7{
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    margin-top: 100px;
-    margin-left: 150px;
-    z-index: 11;
-  }
-  .Group8{
-    position: absolute;
-    width: 110px;
-    height: 110px;
-    margin-top: 300px;
-    margin-left: -250px;
-    z-index: 11;
-  }
+
 .values-text {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px; 
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px; /* Limit width for readability */
+  padding: 0 20px; /* Add padding for smaller screens */
+}
+
+.values-text h3 {
+  font-weight: bold;
+  font-size: 2rem; /* Responsive font size */
+  font-family: Roboto, sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.values-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px; /* Limit text width */
+  color: #333333;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Auto-adjust column count */
+  gap: 1px 1px; /* Adjust spacing between grid items */
+  width: 100%;
+  justify-content: center;
+}
+
+.value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px; /* Add padding around items */
+  border-radius: 10px;
+}
+
+.value-item .icon {
+  width: 30px; /* Adjust icon size */
+  height: 30px;
+  margin-bottom: -30px;
+}
+
+.value-item h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.value-item p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: black;
+  margin-top: -20px;
+}
+
+.diamond-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Limit size for responsiveness */
+  margin: 0 auto;
+}
+
+.diamond-text {
+  transform: rotate(132deg); /* Maintain diamond effect */
+}
+.diamond{
+  padding-right: 0px;
+}
+/* Responsive Adjustments */
+@media screen and (max-width: 992px) {
+  .our-values-section {
+      padding: 40px 10px;
   }
-  .values-text h3 {
-    font-weight: bold;
-    font-size: 28px;
-    font-family: Roboto, sans-serif;
-    margin-bottom: 20px;
-    max-width: 600px; 
-    margin: 0 auto;
-  }
-  .values-text p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0 auto; 
-    max-width: 600px; 
-    text-align: center;
-  }
+
   .values-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 40px 60px; 
-    justify-content: center; 
-    align-items: start;
+      gap: 30px 20px;
   }
+
   .value-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+      padding: 15px;
   }
-  .value-item .icon {
-    width: 30px; 
-    height: 30px;
-    margin-left: -90px;
-    margin-top: 10px;
+
+  .solid, .ring, .bigring {
+      width: 200px;
   }
-  .value-item h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333333;
+
+  .Group2, .Group3, .Group4, .Group5, .Group6, .Group7, .Group8 {
+      width: 60px;
+      height: 60px;
   }
-  .value-item p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #555555;
-    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .values-text h3 {
+      font-size: 1.8rem;
   }
-  
+
+  .values-text p {
+      font-size: 0.95rem;
+  }
+
+  .values-grid {
+      grid-template-columns: 1fr; /* Stack grid items */
+      gap: 20px;
+  }
+
+  .solid, .ring, .bigring {
+      width: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .our-values-section {
+      padding: 30px 5px;
+  }
+
+  .values-text h3 {
+      font-size: 1.5rem;
+  }
+
+  .values-text p {
+      font-size: 0.9rem;
+  }
+
+  .solid, .ring, .bigring {
+      width: 120px;
+  }
+
+  .Group2, .Group3, .Group4, .Group5, .Group6, .Group7, .Group8 {
+      width: 50px;
+      height: 50px;
+  }
+}

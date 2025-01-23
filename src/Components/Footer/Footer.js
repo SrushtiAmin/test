@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
+import { BiWorld } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -55,8 +56,15 @@ const Footer = () => {
           <div className="instagram"><TiSocialInstagram /></div>
         </div>
         <div className="language-selector">
-         <span>🌐</span>
-          <p>English - En</p>  
+         <span><BiWorld />
+         </span>
+         <div className="footer-language">
+          <select className="footer-selector">
+            <option value="en">English - En</option>
+            <option value="sp">Spanish - sp</option>
+            <option value="fr">Franch - fr</option>
+          </select>
+        </div>
           <div className="diamond-square1"></div>
         <div className="diamond-bigsquare1"></div>
         </div>

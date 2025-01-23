@@ -8,7 +8,8 @@
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
- 
+  margin-top: -93px;
+  padding-top: 93px;
 }
 .hero-content {
   max-width: 50%;
@@ -20,14 +21,18 @@
   color: #222;
   line-height: 1.2;
   margin-bottom: 15px;
+  position: relative;
+  z-index: 6;
 }
 .hero-content p {
   font-size: 1.2rem;
   color: #555;
   line-height: 1.5;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 6;
 }
-.write-to-us-btn {
+.btn {
   background-color: #00BCD4;
   color: white;
   padding: 15px 30px;
@@ -40,28 +45,48 @@
   font-weight: 500;
   transition: background-color 0.3s ease;
 }
-.write-to-us-btn:hover {
+.btn:hover {
   background-color: #008C9E;
 }
-.write-to-us-btn .arrow {
+.btn .arrow {
   margin-left: 10px;
 }
 .hero-illustration {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 45%;
+  max-width: 35%;
+  position: relative;
+}
+div .hero-illustration::after{
+  content: '';
+  position:absolute;
+  background: url('../../Assests/Images/HeroSectionImages/Mask.png');
+  width: 1007px;
+  height: 942px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  top: -93px;
+  right: 0;
+  background-size: cover;
+  left: -400px;
+}
+.hero-illustration-main{
+  position: relative;
+  z-index: 4;
 }
 .hero-illustration img {
   max-width: 100%;
   height: auto;
-  padding-left: 50px;
+  padding-right: 90px;
 }
 .continue-section {
   display: flex;
   justify-content: space-around;
   margin-bottom: 45px;
   width: 100%;
+  position: relative;
+  z-index: 6;
 }
 .text-block {
   text-align: center;

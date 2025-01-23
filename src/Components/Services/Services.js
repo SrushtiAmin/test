@@ -8,7 +8,6 @@ import Background from '../../Assests/Images/ServicesImages/Background.png';
 
 const Services = () => {
   return (
-    
         <div className="services-section">
          <h2 className="services-title">Our Services</h2>
            <a href="#" className="see-all"> SEE ALL →</a>
@@ -20,7 +19,7 @@ const Services = () => {
                 Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget
                 lobortis lacus.
               </p>
-              <button className="service-button">See Detail</button>
+              <a href="details"className="service-button">See Detail</a>
             </div>
             <div className="service-card">
               <img src={screen}  alt="Service 2" className="service-image"/>
@@ -29,7 +28,7 @@ const Services = () => {
                 Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget
                 lobortis lacus.
               </p>
-              <button className="service-button">See Detail</button>
+              <a href="details"className="service-button">See Detail</a>
             </div>
             <div className="service-card">
               <img src={accesories} alt="Service 3" className="service-image"/>
@@ -38,7 +37,7 @@ const Services = () => {
                 Pellentesque ac bibendum tortor, vel blandit nulla. Nulla eget
                 lobortis lacus.
               </p>
-              <button className="service-button">See Detail</button>
+              <a href="deatils" className="service-button">See Detail</a>
             </div>
           </div>
         </div>

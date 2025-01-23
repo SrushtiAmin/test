@@ -11,12 +11,14 @@ const HeroSection = () => {
         <div className="hero-content">
           <h1>Aenean Facilisis Vitae</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing Integer id orci sed ante tincidunt</p>
-          <button className="write-to-us-btn">
+          < a href ="/write_to_us"className="btn">
             WRITE TO US <span className="arrow"><FaArrowAltCircleRight /></span>
-          </button>
+          </a>
         </div>
         <div className="hero-illustration">
+          <div className='hero-illustration-main'>
           <img src={Hero} alt="Rocket Illustration" />
+        </div>
         </div>
       </div>
       <div className="continue-section">

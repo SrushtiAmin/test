@@ -5,6 +5,7 @@
   padding: 60px ;
   position: relative;
   margin: 90px;
+  max-width: 1920px;
 }
 .footer-left {
   position: relative;
@@ -123,6 +124,14 @@
 }
 .language-selector span {
   font-size: 18px; 
+}
+.footer-language {
+  position: relative;
+  z-index: 6;
+}
+.footer-selector{
+    text-decoration: none;
+    border: none;
 }
 .diamond-square1 {
   position: absolute;

@@ -9,9 +9,9 @@ const Contact = () => {
           <h1>Ready to get started?</h1>
           <p>Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.</p>
         </div>
-        <button className="write-button">
+        <a href="write_to_us" className="write-button">
           WRITE TO US <span className="arrow">→</span>
-        </button>
+        </a>
       </div>
     </div>
   );
